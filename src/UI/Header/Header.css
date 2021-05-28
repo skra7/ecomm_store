@@ -1,0 +1,99 @@
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  
+  width:100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header__logo {
+  width: 100%;
+  object-fit:cover;
+  font-size: auto;
+  margin: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  white-space:'pre-wrap';
+  overflow-wrap: break-word;
+  letter-spacing:0.05em;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+}
+
+.header__optionLineOne {
+  font-size: 15px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__linkWhatsapp {
+  color: #4fce5d;
+  text-decoration: none;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  background-color: #cd9042;
+  height: 22px !important;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media(min-width:370px){
+  .header__logo {
+    width: 100%;
+    object-fit:cover;
+    font-size: auto;
+    margin: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space:'pre-wrap';
+    overflow-wrap: break-word;
+    letter-spacing:0.08em;
+  }
+}

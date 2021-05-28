@@ -1,0 +1,15 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-top: 1px;
+   min-width: 300px;
+   min-height: 90vh;
+   height: auto;
+   width: auto;
+   background-color:white;
+   padding: 20px;
+   z-index: 6;
+}

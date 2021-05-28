@@ -1,0 +1,79 @@
+.login__page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex:1;
+    height:100vh;
+}
+
+.login__pageLogo {
+    margin:auto
+    
+}
+
+.login__pageText {
+    margin: auto;
+}
+
+.login__pageMessagee {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.login__pageInput {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    border: 1px solid rgb(92, 219, 80);
+    background-color: #f2f8f2;
+    height: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 70%;
+    box-sizing: content-box;
+}
+
+.login__pageInput>input {
+    flex: 1;
+    background-color: inherit;
+    padding: 5px 10px;
+    width: 70%;
+    font-size: medium;
+    font-size: auto;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.login__pageInput> ::placeholder {
+    color: gray;
+    font-weight: lighter;
+}
+
+.login__pageInput>input:focus {
+    outline-width: 0;
+}
+
+.login__pageRequestButton {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.login__pageRequestButtonButton {
+    background-color: #00B386 !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.login__pageConditions {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.row {
+    background-color: black;
+    width: auto;
+    height: 1px;
+}

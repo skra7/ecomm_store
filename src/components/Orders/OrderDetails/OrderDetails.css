@@ -1,0 +1,55 @@
+.OrderDetails{
+
+    background-color: #fcfcfc;
+    color:#777;
+    font-weight: 600;
+    font-size: medium;
+    padding: 4px;
+    align-items: center;
+    
+}
+.Orderheader>a{
+    margin: 5px;
+    text-decoration: none;
+    color:white;
+    padding: 3px;
+  
+}
+
+.Orderheader{
+    display:flex;
+   justify-content: center;
+   background-color:green;
+   align-items: center;
+   height: 18px;
+   color: white;
+   padding: 3px;
+   box-sizing: content-box;
+   border-radius: 5px;
+}  
+.Products
+{
+    display:grid;
+    margin-top: 2em;
+    grid-template-columns:150px 90px 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.Deliveryheader{
+    margin-top: 2em;
+}
+.DeliveryAddress{
+    background-color:#00cc69;
+    border-radius: 5px;
+    padding: 3px;
+    color:whitesmoke;
+}
+@media (max-width:340px){
+    .Products
+{
+    display:grid;
+    grid-template-columns:130px 80px 60px;
+    
+}
+}

@@ -1,0 +1,90 @@
+.login__page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    max-height:70vh;
+}
+
+.login__pageLogo {
+    margin: auto;
+}
+
+.login__pageText {
+    margin: auto;
+}
+
+.login__pageMessage {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.login__pageMessageChange {
+    margin:20px auto;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.login__pageMessageResend {
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    align-content: flex-end;
+    text-align: right;
+    align-items: center;
+    height:40px
+}
+
+.login__pageInput {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    border: 1px solid rgb(92, 219, 80);
+    background-color: #f2f8f2;
+    height: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 70%;
+    box-sizing: content-box;
+}
+
+.login__pageInput>input {
+    flex: 1;
+    background-color: inherit;
+    padding: 5px 10px;
+    width: 70%;
+    font-size: medium;
+    font-size: auto;
+    text-align: center;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.login__pageInput> ::placeholder {
+    color: gray;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.login__pageInput>input:focus {
+    outline-width: 0;
+}
+
+.login__pageRequestButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.login__pageRequestButtonButton {
+    background-color: #00B386 !important;
+    color: white !important;
+    font-weight: 600 !important;
+}

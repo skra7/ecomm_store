@@ -1,0 +1,13 @@
+.more_details{
+    display:flex;
+    background-color:green;
+    border-radius:5px;
+    font-weight:600;
+    color:white;
+   align-items: center;
+    justify-content: center;
+
+    height:19px;
+    padding:2px;
+    font-size:14.5px;
+}
